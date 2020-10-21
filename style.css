@@ -81,7 +81,7 @@ img {
   }
   body{
     font-size: 12.5px;
-    min-width: 300px;
+    min-width: 280px;
   }
   .row{
     width: 100%;
@@ -132,5 +132,56 @@ img {
   #why .row img {
     height: 90px;
     padding: 5px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width:900px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    width: 100%;
+    font-size: 13.5px;
+  }
+
+  .row{
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  h3{
+    text-align: center;
+    padding: 10px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    padding: 15px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #777777;
+  }
+
+  img{
+    height: 80px;
+    margin: 10px 0;
+  }
+  #why .row img {
+    height: 75px;
+    padding: 8px;
   }
 }
