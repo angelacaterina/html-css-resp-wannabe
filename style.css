@@ -101,20 +101,32 @@ img {
     width: 100%;
     float: none;
   }
-
+  #lezioni .row>.left{
+    padding-bottom: 20px;
+  }
   img {
     height: 100px;
   }
-
+  /* #steps */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
     width: 100%;
   }
-
-  #why .row img {
-    height: 140px;
+  #steps .row>.central{
+    padding: 20px 0;
   }
-
+  /* #why */
+  #why .row>.first{
+    margin-top: 0;
+  }
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+  #why .row img {
+    height: 90px;
+    padding: 5px;
+  }
 }
